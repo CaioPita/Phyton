@@ -10,3 +10,15 @@ soma=num1+num2
 prod=num1*num2
 print(f"Os números: {num1} e {num2} somados equivalem a {soma} e produto equivale a {prod} " )
 
+Exercício 3 
+print("************************")
+print("Calculadora de IMC")
+print("************************")
+print("\n")
+nome=input("Digite seu nome: ")
+idade=int(input("Digite a sua idade: "))
+peso=float(input("Digite o seu peso em kg: "))
+altura=float(input("Digite a sua altura em metros: "))
+imc= peso/(altura*altura)#Ou peso/(altura**2)
+print(f" O paciente {nome},possui {idade} anos e está com o índice de massa corporal igual a {imc:.2f}")
+
