@@ -22,3 +22,13 @@ altura=float(input("Digite a sua altura em metros: "))
 imc= peso/(altura*altura)#Ou peso/(altura**2)
 print(f" O paciente {nome},possui {idade} anos e está com o índice de massa corporal igual a {imc:.2f}")
 
+Exercício 4
+
+nome=input("Digite seu nome: ")
+cpf=int(input("Digite o seu cpf: "))
+slbr=float(input("Digite o seu salário bruto: "))
+fgts=slbr*0.08
+print(f"O usuário {nome}, do cpf {cpf}, tem como salário bruto {slbr} e será recolhido {fgts} do seu fgts. " )
+
+
+
