@@ -43,3 +43,11 @@ elif(l1==l2 and l2==l3):
         print(f"Equilatero")
 else:
     print(f"Isósceles")
+------------------------Código 4-----------------------------
+num=int(input("Digite o numero: "))
+if(num%2==0):
+        print(f"Número par!")
+else:
+        print(f"Número impar!")
+------------------------Código 5-----------------------------
+
