@@ -50,4 +50,21 @@ if(num%2==0):
 else:
         print(f"Número impar!")
 ------------------------Código 5-----------------------------
+nome=input("Digite o seu nome: ")
+cpf=int(input("Digite o seu cpf: "))
+renda=float(input("Digite a sua renda: "))
+if(renda<=1903.98):
+        aliquota=("isento")
+elif(renda<=2826.65):
+        aliquota=("7.5%")
+elif(renda<=3751.05):
+        aliquota=("15%")
+elif(renda<=4664.68):
+        aliquota=("22.5%")
+else:
+        aliquota=("27.5%")
+print(f"Nome:{nome}")
+print(f"cpf:{cpf}")
+print(f"renda:{renda}")
+print(f"A sua aliquota de dedução do imposto de renda em 2023 é de:{aliquota}"
 
